@@ -7,6 +7,7 @@ const Editproduct = () => {
   const [precio, setPrecio] = useState(0);
   const [descripcion, setDescripcion] = useState("");
   const { _id } = useParams();
+  //test
 
   useEffect(
     () =>
